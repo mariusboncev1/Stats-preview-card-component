@@ -1,3 +1,36 @@
 body {
-    background-color: aqua;
+    background-color: hsl(233, 47%, 7%);
+    text-align: center;
+}
+
+/* Preview card */
+
+.container-fluid {
+    text-align: center;
+    height: 100px;
+    padding: 5%;
+}
+
+.container {
+    al
+    position: absolute;
+    background-color: hsl(244, 38%, 16%);
+    width: 250px;
+}
+
+.h1-card {
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+/* Attribution */
+
+.attribution {
+    color: #fff;
+    position: relative;
+    text-align: center;
+    bottom: -340px;
 }
