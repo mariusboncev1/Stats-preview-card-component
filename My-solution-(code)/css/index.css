@@ -6,31 +6,44 @@ body {
 /* Preview card */
 
 .container-fluid {
+    position: relative;
     text-align: center;
-    height: 100px;
-    padding: 5%;
+    height: 170px;
+
 }
 
 .container {
-    al
-    position: absolute;
     background-color: hsl(244, 38%, 16%);
-    width: 250px;
+    width: 100px;
+    height: 300px;
+    padding: 50px;
+    margin: auto;
 }
 
-.h1-card {
+.h1-shit {
     color: hsl(0, 0%, 100%);
+}
+
+.violet-text {
+    color: hsl(277, 64%, 61%);
 }
 
 p {
     color: hsla(0, 0%, 100%, 0.75);
 }
 
+.image {
+    position: relative;
+    width: auto;
+    height: 300px;
+    left: -12px;
+}
+
 /* Attribution */
 
 .attribution {
     color: #fff;
-    position: relative;
     text-align: center;
-    bottom: -340px;
+    position: relative;
+    bottom: -50px;
 }
