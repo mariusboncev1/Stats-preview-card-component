@@ -1,27 +1,25 @@
+*{
+    box-sizing: border-box;
+}
 body {
     background-color: hsl(233, 47%, 7%);
     text-align: center;
+    height: 100vh;
 }
 
 /* Preview card */
 
-.container-fluid {
-    position: relative;
-    text-align: center;
-    height: 170px;
-    display: flex;
-    justify-content: center;
-}
-
-.container {
+.container-box {
     background-color: hsl(244, 38%, 16%);
-    width: 100px;
-    height: 300px;
-    padding: 50px;
+    width: 75%;
+    height: 280px;
+    border-radius: 10px;
 }
 
 .h1-main {
     color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
 }
 
 .violet-text {
@@ -30,18 +28,23 @@ body {
 
 p {
     color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .h1-second {
     color: hsl(0, 0%, 100%);
     font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
 }
 
 .image {
-    position: relative;
     width: auto;
-    height: 300px;
-    left: -12px;
+    min-width: 300px;
+    height: 280px;
+    border-radius: 10px;
 }
 
 /* Attribution */
@@ -50,5 +53,5 @@ p {
     color: #fff;
     text-align: center;
     position: relative;
-    bottom: -50px;
+    bottom: -160px;
 }
